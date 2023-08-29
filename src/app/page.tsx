@@ -11,7 +11,6 @@ export default async function Page() {
     modelUid: 'article',
   });
 
-  console.log(res);
   return (
     <main>
       <k.ul display='grid' gap={4} maxWidth={800} mx='auto' my={20}>
